@@ -102,11 +102,7 @@ const navLinks = [
   const techStack = [
     {
       category: "Frontend",
-      items: ["React.js", "Next.js", "TypeScript"],
-    },
-    {
-      category: "Mobile",
-      items: ["React Native", "Expo"],
+      items: ["React.js"],
     },
     {
       category: "Styling",
@@ -114,15 +110,15 @@ const navLinks = [
     },
     {
       category: "Backend",
-      items: ["Node.js", "Express", "NestJS", "Hono"],
+      items: ["Node.js", "Express"],
     },
     {
       category: "Database",
-      items: ["MongoDB", "PostgreSQL"],
+      items: ["MongoDB"],
     },
     {
       category: "Dev Tools",
-      items: ["Git", "GitHub", "Docker"],
+      items: ["Git", "GitHub"],
     },
   ];
   
