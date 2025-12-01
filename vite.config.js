@@ -31,7 +31,24 @@ export default defineConfig({
       "Cross-Origin-Opener-Policy": "same-origin",
     },
   },
+  preview: {
+    headers: {
+      "Cross-Origin-Embedder-Policy": "credentialless",
+      "Cross-Origin-Opener-Policy": "same-origin",
+    },
+  },
   optimizeDeps: {
     exclude: ["pdfjs-dist"],
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          "react-vendor": ["react", "react-dom"],
+          "gsap-vendor": ["gsap", "@gsap/react"],
+          "pdf-vendor": ["react-pdf", "pdfjs-dist"],
+        },
+      },
+    },
   },
 });
