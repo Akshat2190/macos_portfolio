@@ -16,11 +16,11 @@ const Image = () => {
         <h2>{data.name}</h2>
       </div>
 
-      <div className="p-8 bg-white h-full overflow-auto flex items-center justify-center">
+      <div className="p-6 bg-white h-full overflow-auto flex items-center justify-center">
         <img
           src={data.imageUrl}
           alt={data.name}
-          className="max-w-full max-h-full object-contain rounded-lg"
+          className="max-w-full max-h-[80vh] object-contain rounded-lg"
         />
       </div>
     </>

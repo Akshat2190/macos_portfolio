@@ -108,7 +108,7 @@ const techStack = [
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["Tailwind CSS", "GSAP", "Framer Motion"],
   },
   {
     category: "Backend",
@@ -120,7 +120,7 @@ const techStack = [
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub"],
+    items: ["Git", "GitHub", "Docker", "Kubernetes", "Vercel"],
   },
 ];
 
@@ -186,11 +186,11 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/casual.jpg",
+    img: "/images/photo.jpg",
   },
   {
     id: 2,
-    img: "/images/chill.jpg",
+    img: "/images/photo1.jpg",
   },
 ];
 
@@ -215,7 +215,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "AI Chatbox",
+      name: "WhiteChapelWorks",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5",
@@ -223,13 +223,13 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Chatbox Project.txt",
+          name: "WhiteChapelWorks Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The AI Chatbox Application is a full-stack platform designed for seamless conversations and creative image generation.",
+            "The WhiteChapelWorks Application is a full-stack platform designed for seamless conversations and creative image generation.",
             "Users can chat naturally with the AI, create images from text prompts, and explore a modern, interactive interface with smooth UI and animations.",
             "Built with an integrated credits system, the app allows users to manage usage, purchase credits, and unlock premium features with ease.",
             "A dedicated community hub lets users share prompts, showcase generated images, and discover what others are creating.",
@@ -238,7 +238,7 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "ai-chatbox.com",
+          name: "whitechapel-works.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
@@ -247,7 +247,7 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "ai-chatbox.png",
+          name: "whitechapel-works.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -269,7 +269,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Collaborative Project Builder",
+      name: "NexusForge",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -277,17 +277,16 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Project Builder.txt",
+          name: "NexusForge Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "The AI Collaborative Project Builder is a full-stack platform where you can create projects, invite teammates, and build together in real time.",
-            "Inside each project, you get an integrated chat system to communicate, share ideas, and coordinate work effortlessly.",
-            "You can even bring an AI assistant into the chat—it can write code, generate files, create folder structures, or help solve problems on the spot.",
-            "With real-time updates, shared editing, and a smooth UI, it feels like a modern workspace built for teams who want to build faster and smarter.",
-            "The platform is fully full-stack, combining a responsive frontend, secure backend APIs, user authentication, collaborative syncing, and AI-driven tooling.",
+            "A real-time collaborative workspace with chat, whiteboarding, and in-browser coding.",
+            "Features an AI assistant activated with @ai that understands conversation context and helps generate, debug, and explain code.",
+            "Includes a live coding environment powered by WebContainers with real-time syncing using Socket.IO.",
+            "Built with collaborative file management, shared editing, and future Git integration support.",
           ],
         },
         {
@@ -323,7 +322,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Snake Game",
+      name: "Lunch Box",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -331,35 +330,35 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Snake Game Project.txt",
+          name: "Lunch Box Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Snake Game is a classic grid-based game where the player controls a growing snake that must eat food while avoiding walls and itself.",
-            "This version features clean UI, smooth controls, and real-time score, high-score tracking, and a built-in timer.",
-            "Each time the snake eats food, it grows longer and speeds up the challenge, making every move count.",
-            "The game is built with HTML, CSS, and JavaScript, using a dynamic grid system and modular logic for rendering, collision detection, and state updates.",
+            "TiffinTrack is a smart lunchbox tracking platform that automates daily meal logging and billing.",
+            "The system automatically marks noon and night meals on schedule while allowing quick corrections, skips, and pause controls.",
+            "It includes bill management, payment tracking, editable history records, and automated calculations for unpaid meals.",
+            "Designed as a full-stack productivity tool with automation, scheduling, and real-time status management at its core.",
           ],
         },
         {
           id: 2,
-          name: "snake-game.com",
+          name: "lunch-box.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://akshat2190.github.io/snake-game/",
+          href: "https://lunch-box-fawn.vercel.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "snake-game.png",
+          name: "lunch-box.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/snake-game-img.png",
+          imageUrl: "/images/lunch-box.png",
         },
         {
           id: 5,
@@ -367,7 +366,7 @@ const WORK_LOCATION = {
           icon: "/images/plain.png",
           kind: "file",
           fileType: "fig",
-          href: "https://github.com/Akshat2190/snake-game",
+          href: "https://github.com/Akshat2190/lunch-box",
           position: "top-60 right-20",
         },
       ],
@@ -389,7 +388,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/chill.jpg",
+      imageUrl: "/images/photo1.jpg",
     },
     {
       id: 2,
@@ -398,7 +397,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/casual.jpg",
+      imageUrl: "/images/photo.jpg",
     },
     {
       id: 3,
