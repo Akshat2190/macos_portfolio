@@ -102,26 +102,10 @@ const blogPosts = [
 ];
 
 const techStack = [
-  {
-    category: "Frontend",
-    items: ["React.js"],
-  },
-  {
-    category: "Styling",
-    items: ["Tailwind CSS", "GSAP", "Framer Motion"],
-  },
-  {
-    category: "Backend",
-    items: ["Node.js", "Express"],
-  },
-  {
-    category: "Database",
-    items: ["MongoDB"],
-  },
-  {
-    category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker", "Kubernetes", "Vercel"],
-  },
+  { category: "Languages", items: ["JavaScript (ES6+)", "TypeScript", "Python", "HTML5", "CSS3"] },
+  { category: "Backend & DBs", items: ["Node.js", "Express.js", "WebSockets (Socket.IO)", "Redis Caching", "MongoDB", "Mongoose", "REST APIs"] },
+  { category: "Frontend & UI", items: ["React.js", "Next.js", "Tailwind CSS", "Figma (UI/UX Design)"] },
+  { category: "Tools & Infra", items: ["LLM API Integration", "WebContainers", "Telegram Bot API", "Git", "GitHub", "Artillery Testing", "Docker"] },
 ];
 
 const socials = [
@@ -130,7 +114,7 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/Akshat2190",
+    link: "https://github.com/Akshat2190/",
   },
   {
     id: 2,
@@ -212,14 +196,67 @@ const WORK_LOCATION = {
   icon: "/icons/work.svg",
   kind: "folder",
   children: [
+
     // ▶ Project 1
+    {
+      id: 6,
+      name: "NexusForge",
+      icon: "/images/folder.png",
+      kind: "folder",
+       position: "top-10 left-5",
+      windowPosition: "top-[5vh] left-5",
+      children: [
+        {
+          id: 1,
+          name: "NexusForge Project.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 right-10",
+          description: [
+            "A real-time collaborative workspace with chat, whiteboarding, and in-browser coding.",
+            "Features an AI assistant activated with @ai that understands conversation context and helps generate, debug, and explain code.",
+            "Includes a live coding environment powered by WebContainers with real-time syncing using Socket.IO.",
+            "Built with collaborative file management, shared editing, and future Git integration support.",
+          ],
+        },
+        {
+          id: 2,
+          name: "soen-navy.vercel.app",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://soen-navy.vercel.app/",
+          position: "top-20 left-20",
+        },
+        {
+          id: 4,
+          name: "collab-builder.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 left-80",
+          imageUrl: "/images/soen.png",
+        },
+        {
+          id: 5,
+          name: "Design.fig",
+          icon: "/images/plain.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://github.com/Akshat2190/SOEN",
+          position: "top-60 left-5",
+        },
+      ],
+    },
+    // ▶ Project 2
     {
       id: 5,
       name: "WhiteChapelWorks",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-5",
-      windowPosition: "top-[5vh] left-5",
+      position: "top-52 right-80",
+      windowPosition: "top-[20vh] left-7",
       children: [
         {
           id: 1,
@@ -266,58 +303,7 @@ const WORK_LOCATION = {
       ],
     },
 
-    // ▶ Project 2
-    {
-      id: 6,
-      name: "NexusForge",
-      icon: "/images/folder.png",
-      kind: "folder",
-      position: "top-52 right-80",
-      windowPosition: "top-[20vh] left-7",
-      children: [
-        {
-          id: 1,
-          name: "NexusForge Project.txt",
-          icon: "/images/txt.png",
-          kind: "file",
-          fileType: "txt",
-          position: "top-5 right-10",
-          description: [
-            "A real-time collaborative workspace with chat, whiteboarding, and in-browser coding.",
-            "Features an AI assistant activated with @ai that understands conversation context and helps generate, debug, and explain code.",
-            "Includes a live coding environment powered by WebContainers with real-time syncing using Socket.IO.",
-            "Built with collaborative file management, shared editing, and future Git integration support.",
-          ],
-        },
-        {
-          id: 2,
-          name: "project-builder.com",
-          icon: "/images/safari.png",
-          kind: "file",
-          fileType: "url",
-          href: "https://github.com/Akshat2190/SOEN",
-          position: "top-20 left-20",
-        },
-        {
-          id: 4,
-          name: "collab-builder.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-52 left-80",
-          imageUrl: "/images/soen.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://github.com/Akshat2190/SOEN",
-          position: "top-60 left-5",
-        },
-      ],
-    },
+    
 
     // ▶ Project 3
     {
